@@ -1,12 +1,38 @@
 @import url(../styles/header.css);
+@import url(../styles/main.css);
+@import url(../styles/conteudo-lateral.css);
+@import url(../styles/footer.css);
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-size: 1em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #e6e6e6;
+body {
+  font-size: 1em;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  background: #e6e6e6;
+}
+
+h1 {
+  color: #4e4e4e;
+}
+
+h2 {
+  color: #f7b600;
+}
+
+h3 {
+    color: black;
+    background: #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.data-postagem {
+  font-size: 0.8em;
+  border-bottom: 1px solid #f4f4f4;
+  margin-bottom: 20px;
 }

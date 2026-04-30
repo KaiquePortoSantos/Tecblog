@@ -1,0 +1,45 @@
+#area-lateral {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-lateral {
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+  transition: 0.3s;
+}
+.postagem-lateral {
+  font-size: 0.8em;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.categorias {
+  background-color: #fff;
+  border-radius: 10px; /* cantos arredondados */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* sombra suave */
+  padding: 15px;
+  
+}
+
+ul, li{
+  list-style-type: none;
+  padding: 0;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+#categorias-links a{
+    color: orange;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#categorias-links a:hover {
+text-decoration: underline;
+border-radius: 0px;
+}
